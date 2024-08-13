@@ -3,6 +3,7 @@ package com.yuch.utils.file;
 
 import com.alibaba.fastjson2.util.IOUtils;
 import com.yuch.utils.DateUtils;
+import com.yuch.utils.StringUtils;
 import com.yuch.utils.uuid.IdUtils;
 import org.apache.commons.lang3.ArrayUtils;
 

@@ -1,6 +1,8 @@
 package com.yuch.utils.file;
 
 
+import com.yuch.config.SitpConfig;
+import com.yuch.constant.Constants;
 import com.yuch.utils.StringUtils;
 import org.apache.commons.compress.utils.IOUtils;
 import org.slf4j.Logger;

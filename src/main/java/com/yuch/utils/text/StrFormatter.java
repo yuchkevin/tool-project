@@ -1,6 +1,6 @@
 package com.yuch.utils.text;
 
-import com.ylzinfo.sitp.common.utils.StringUtils;
+import com.yuch.utils.StringUtils;
 
 /**
  * 字符串格式化

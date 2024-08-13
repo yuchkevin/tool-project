@@ -1,10 +1,13 @@
-package com.yuch.utils;
+package com.yuch.utils.ip;
 
+
+
+import com.yuch.utils.ServletUtils;
+import com.yuch.utils.StringUtils;
+
+import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import javax.servlet.http.HttpServletRequest;
-import com.ylzinfo.sitp.common.utils.ServletUtils;
-import com.ylzinfo.sitp.common.utils.StringUtils;
 
 /**
  * 获取IP方法

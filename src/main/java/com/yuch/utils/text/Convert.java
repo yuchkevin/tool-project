@@ -1,7 +1,7 @@
 package com.yuch.utils.text;
 
-import com.ylzinfo.sitp.common.utils.StringUtils;
-import org.apache.commons.lang3.ArrayUtils;
+ import com.yuch.utils.StringUtils;
+ import org.apache.commons.lang3.ArrayUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

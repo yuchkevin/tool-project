@@ -1,6 +1,7 @@
 package com.yuch.utils.text;
 
-import com.ylzinfo.sitp.common.utils.StringUtils;
+
+import org.apache.commons.lang3.StringUtils;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;

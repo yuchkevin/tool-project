@@ -1,13 +1,11 @@
 package com.yuch.utils;
 
 import com.jcraft.jsch.*;
-import com.jcraft.jsch.ChannelSftp.LsEntry;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
-import java.util.Iterator;
 import java.util.Properties;
 import java.util.Vector;
 

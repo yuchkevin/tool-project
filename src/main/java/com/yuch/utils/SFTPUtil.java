@@ -291,3 +291,43 @@ public class SFTPUtil {
     }
 
 }
+
+
+//使用案例
+//String path = "/YLZ/voucher/" + aae043 + "/";
+//String fileName = ac95.getAic500() + "_" + aae043 + ".pdf";
+//SFTPUtil sftpUtil = new SFTPUtil(username, password, hostname, port);
+//
+//String name = path + fileName;
+//        try {
+//                sftpUtil.login();
+//boolean flag = sftpUtil.exists(name);
+//            if (flag) {
+//byte[] bytes = sftpUtil.download(path, fileName);
+//String base64 = FileUtils.byte2Base64String(bytes);
+//
+//                map.put("pdf", base64);
+//                return GlobalUtil.successMap(map);
+//            } else {
+//fileName = aae043 + "_" + ac95.getAac147() + "_" + aac003 + ".pdf";
+//name = path + fileName;
+//flag = sftpUtil.exists(name);
+//                if (flag) {
+//byte[] bytes = sftpUtil.download(path, fileName);
+//String base64 = FileUtils.byte2Base64String(bytes);
+//                    map.put("pdf", base64);
+//                    return GlobalUtil.successMap(map);
+//                } else {
+//                        return GlobalUtil.errorMap("04002", "凭证尚未生成", map);
+//                }
+//                        }
+//                        } catch (Exception e) {
+//        return GlobalUtil.errorMap(com.ylzinfo.bankSingle.webService.enums.ExceptCode.ERROR_JK.getCode(), e.getMessage(), map);
+//        } finally {
+//        if (sftpUtil != null) {
+//        // 释放SFTP
+//        sftpUtil.logout();
+//            }
+//
+//                    }
+//                    }

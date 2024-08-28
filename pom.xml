@@ -15,6 +15,7 @@
         <commons-lang.version>2.6</commons-lang.version>
         <fastjson.version>2.0.43</fastjson.version>
         <poi.version>4.1.2</poi.version>
+        <jsch.version>0.1.53</jsch.version>
     </properties>
     <dependencies>
         <dependency>
@@ -55,6 +56,13 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>${poi.version}</version>
+        </dependency>
+
+<!--sftp-->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>${jsch.version}</version>
         </dependency>
 
 
